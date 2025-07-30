@@ -7,13 +7,18 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <video autoplay muted loop id="bg-video">
+      <source src="imgs/video.mp4" type="video/mp4" />
+      <!-- Fallback for unsupported browsers -->
+      Your browser does not support HTML5 video.
+    </video>
     <div class="container-page">
       <!-- ----------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------- -->
 
       <header class="header">
         <div class="container">
-          <h1 class="name">AymEnn</h1>
+          <h1 class="name"><a href="#welcome" class="nav-link">AymEnn</a></h1>
           <nav class="navigation">
             <ul class="nav-list">
               <li><a href="#welcome" class="nav-link">Home</a></li>
@@ -33,14 +38,22 @@
         <!-- ----------------------------------------------------------------- -->
 
         <section id="welcome" class="welcome-section">
-          <div class="container">
-            <div class="welcome-content">
+          <div class="welcome-content">
+            <h1 class="welcome-title">
+              <p>I'm Ayman En-nakr , and Welcome to My Portfolio</p>
+              <div class="typing">
+                <p class="text">Computer Science student ...</p>
+              </div>
+            </h1>
+            <div class="box">
               <img
-                src="profile.jpg"
+                src="imgs/profile.png"
                 alt="Ayman En-nakr Profile Picture"
                 class="welcome-profile-pic"
+                loading="lazy"
+                width="400"
+                height="400"
               />
-              <h2 class="welcome-title">Welcome In My Portfolio</h2>
             </div>
           </div>
         </section>
@@ -177,7 +190,6 @@
                 <p class="project-description">
                   New exciting project in development. Stay tuned for updates!
                 </p>
-                
               </article>
 
               <article class="project-card">
@@ -185,7 +197,6 @@
                 <p class="project-description">
                   New exciting project in development. Stay tuned for updates!
                 </p>
-                
               </article>
             </div>
           </div>
@@ -250,7 +261,5 @@
         </div>
       </footer>
     </div>
-
-    <script src="script.js"></script>
   </body>
 </html>
