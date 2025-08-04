@@ -6,7 +6,7 @@
   color: var(--text);
 }
 body {
-  background: linear-gradient(135deg, #404147 0%, #515d71 100%);
+  background: linear-gradient(135deg, #181a20 0%, #23272e 100%);
 }
 #bg-video {
   position: fixed;
@@ -440,8 +440,9 @@ display: grid;
   gap: 10px;
 }
 .projects-section .section-title {
-  width: 231px;
+  
   margin-top: 15px;
+      width: 247px;
 }
 #div{
   display: flex;
@@ -634,7 +635,7 @@ footer {
   content: "About Me";
 }
 #skills-title{
-  width: 176px;
+  width: 191px;
 }
 #skills-title::before {
   content: "My Skills";
